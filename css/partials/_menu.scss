@@ -4,9 +4,9 @@ header {
   box-shadow: 0 0 0 rgba(255, 255, 255, 0);
   transition: 0.5s ease;
 
-  z-index: 800;
+  // z-index: 800;
 
-  position: fixed;
+  // position: fixed;
 }
 
 .active-header {
@@ -15,6 +15,10 @@ header {
     0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271),
     0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04),
     0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
+
+    z-index: 800;
+
+    position: fixed;
 }
 
 .navbar-desktop {
