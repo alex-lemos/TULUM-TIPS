@@ -58,7 +58,7 @@ $container-s: 540px;
 .flex-start {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center;  
 }
 
 .flex-center {
@@ -103,7 +103,8 @@ $container-s: 540px;
   flex: 1 1 auto;
 }
 
-// Width's
+// Width'
+
 .width-auto {
   width: auto;
 }
@@ -122,4 +123,36 @@ $container-s: 540px;
 
 .hidden {
   overflow: hidden;
+}
+
+.mobile-none{
+  @include responsive(s){
+    display: none;
+  }
+}
+
+.hero {
+  padding-top: 40px;
+  height: 90vh;
+  overflow: visible;
+
+  @include responsive(s) {
+    height: auto;
+  }
+}
+
+.hero__bet-score{
+
+  h4{
+    font-weight: 300;
+  }
+
+  svg{
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.hero__trophy{
+  width: 240px;
 }

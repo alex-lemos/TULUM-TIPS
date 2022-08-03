@@ -95,6 +95,35 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 960px) {
+  .mobile-none {
+    display: none;
+  }
+}
+
+.hero {
+  padding-top: 40px;
+  height: 90vh;
+  overflow: visible;
+}
+@media screen and (max-width: 960px) {
+  .hero {
+    height: auto;
+  }
+}
+
+.hero__bet-score h4 {
+  font-weight: 300;
+}
+.hero__bet-score svg {
+  width: 28px;
+  height: 28px;
+}
+
+.hero__trophy {
+  width: 240px;
+}
+
 h1 {
   color: #232422;
   font-family: "Sora", sans-serif;
@@ -153,7 +182,7 @@ h4 {
 
 h5 {
   text-transform: uppercase;
-  background: linear-gradient(220.94deg, #a950c4 14.43%, #82269e 85.28%);
+  background: linear-gradient(220.94deg, #68D250 14.43%, #2E9A18 85.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -181,6 +210,20 @@ p {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     line-height: 150%;
+  }
+}
+
+.body-1 {
+  color: #626762;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  line-height: 130%;
+}
+@media screen and (max-width: 960px) {
+  .body-1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    line-height: 130%;
   }
 }
 
@@ -220,14 +263,9 @@ strong {
   box-shadow: 0px 51px 80px rgba(60, 196, 29, 0.1), 0px 15.375px 24.1177px rgba(60, 196, 29, 0.07), 0px 6.38599px 10.0172px rgba(60, 196, 29, 0.05), 0px 2.30969px 3.62304px rgba(60, 196, 29, 0.03);
 }
 .btn:hover {
-  box-shadow: 0px 17px 17px rgba(169, 80, 196, 0.13), 0px 5.125px 5.125px rgba(169, 80, 196, 0.0847066), 0px 2.12866px 2.12866px rgba(169, 80, 196, 0.065), 0px 0.769896px 0.769896px rgba(169, 80, 196, 0.0452935);
+  box-shadow: 0px 0px 100px rgba(60, 196, 29, 0.6), 0px 0px 24.1177px rgba(60, 196, 29, 0.5), 0px 0px 10.0172px rgba(60, 196, 29, 0.3), 0px 0px 3.62304px rgba(60, 196, 29, 0.15);
   transform: scale(1.02);
   opacity: 0.9;
-}
-@media screen and (max-width: 960px) {
-  .btn {
-    display: none;
-  }
 }
 
 a {
@@ -724,6 +762,10 @@ header {
 
 .photo-6 {
   background-image: url("../img/people6.png");
+}
+
+svg {
+  margin: 0 auto;
 }
 
 .div-card {
