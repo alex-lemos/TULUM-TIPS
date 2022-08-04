@@ -777,7 +777,7 @@ svg {
   margin: 0 auto;
 }
 
-.money-1 {
+#money-1 {
   position: absolute;
   top: -10px;
   z-index: -5;
@@ -785,7 +785,7 @@ svg {
           animation: money-move 4.5s linear infinite;
 }
 
-.money-2 {
+#money-2 {
   position: absolute;
   top: -120px;
   z-index: -5;
@@ -793,7 +793,7 @@ svg {
           animation: money-move 4s linear infinite;
 }
 
-.money-3 {
+#money-3 {
   position: absolute;
   top: -50px;
   z-index: -5;
@@ -801,7 +801,7 @@ svg {
           animation: money-move 3s linear infinite;
 }
 
-.money-4 {
+#money-4 {
   position: absolute;
   top: -40px;
   z-index: -5;
@@ -809,7 +809,7 @@ svg {
           animation: money-move 2.5s linear infinite;
 }
 
-.money-5 {
+#money-5 {
   position: absolute;
   top: -60px;
   z-index: -5;
