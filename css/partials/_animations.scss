@@ -1,44 +1,91 @@
 // ANIMATIONS HERO
 
-#money-1 {
-	position: absolute;
-	top: -10px;
+.money-2 {
 
 	z-index: -5;
 
-	animation: money-move 4.5s linear infinite;
+	animation: money-move 1.5s linear infinite;
 }
 
-#money-2 {
-	position: absolute;
-	top: -120px;
+.money-13 {
 	z-index: -5;
 
-	animation: money-move 4s linear infinite;
+	animation: money-move 2s linear infinite;
 }
 
-#money-3 {
-	position: absolute;
-	top: -50px;
-	z-index: -5;
-
-	animation: money-move 3s linear infinite;
-}
-
-#money-4 {
-	position: absolute;
-	top: -40px;
+.money-8 {
 	z-index: -5;
 
 	animation: money-move 2.5s linear infinite;
 }
 
-#money-5 {
-	position: absolute;
-	top: -60px;
+.money-7 {
 	z-index: -5;
 
-	animation: money-move 1.5s linear infinite;
+	animation: money-move 3s linear infinite;
+}
+
+.money-5 {
+	z-index: -5;
+
+	animation: money-move 3.5s linear infinite;
+}
+
+.money-14 {
+	z-index: -5;
+
+	animation: money-move 4s linear infinite;
+}
+
+.money-4 {
+	z-index: -5;
+
+	animation: money-move 4.5s linear infinite;
+}
+.money-10 {
+	z-index: -5;
+
+	animation: money-move 5s linear infinite;
+}
+.money-11 {
+	z-index: -5;
+
+	animation: money-move 5.5s linear infinite;
+}
+.money-6 {
+	z-index: -5;
+
+	animation: money-move 6s linear infinite;
+}
+.money-12 {
+	z-index: -5;
+
+	animation: money-move 6.5s linear infinite;
+}
+.money-8 {
+	z-index: -5;
+
+	animation: money-move 7s linear infinite;
+}
+.money-1 {
+	z-index: -5;
+
+	animation: money-move 7.5s linear infinite;
+}
+.money-9 {
+	z-index: -5;
+
+	animation: money-move 8s linear infinite;
+}
+.money-3 {
+	z-index: -5;
+
+	animation: money-move 8.5s linear infinite;
+}
+.money-15 {
+	z-index: -5;
+
+	animation: money-move 9s linear infinite;
 }
 
 @keyframes money-move {
