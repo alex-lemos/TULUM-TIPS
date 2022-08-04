@@ -1,30 +1,30 @@
 // Colors of project
 
 // Brand-colors
-$primary-normal: #3CC41D;
-$primary-dark: #2E9A18;
-$primary-light: #68D250; 
+$primary-normal: #3cc41d;
+$primary-dark: #2e9a18;
+$primary-light: #68d250;
 
-$secondary-normal: #1E794D;
+$secondary-normal: #1e794d;
 $secondary-dark: #519977;
-$secondary-light: #175F3D;
+$secondary-light: #175f3d;
 
 // Neutral-colors
 $black-normal: #232422;
 $black-dark: #131612;
-$black-light: #3A3B39;
+$black-light: #3a3b39;
 
-$white-normal: #F6FFF6;
-$white-dark: #F1F1F1;
-$white-light: #FCFFFC;
+$white-normal: #f6fff6;
+$white-dark: #f1f1f1;
+$white-light: #fcfffc;
 
 // Gray Scale
 $gray-1: #444644;
-$gray-2: #4E514E;
-$gray-3: #585C58;
+$gray-2: #4e514e;
+$gray-3: #585c58;
 $gray-4: #626762;
-$gray-5: #6C726C;
-$gray-6: #767D76;
+$gray-5: #6c726c;
+$gray-6: #767d76;
 $gray-7: #808880;
 
 // Auxiliary colors
@@ -39,3 +39,8 @@ $green-light: #50e170;
 $yellow-normal: #ffce52;
 $yellow-dark: #d9b043;
 $yellow-light: #ffd76b;
+
+$shadow-black: 0px 80px 80px rgba(16, 16, 16, 0.06),
+	0px 24.1177px 24.1177px rgba(16, 16, 16, 0.0390953),
+	0px 10.0172px 10.0172px rgba(16, 16, 16, 0.03),
+	0px 3.62304px 3.62304px rgba(16, 16, 16, 0.0209047);

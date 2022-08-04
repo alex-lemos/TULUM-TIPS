@@ -103,9 +103,8 @@
 
 .hero {
   padding-top: 160px;
-  height: 90vh;
+  padding-bottom: 40px;
   overflow: visible;
-  z-index: 500;
 }
 @media screen and (max-width: 960px) {
   .hero {
@@ -124,6 +123,11 @@
 .hero__trophy {
   width: 240px;
 }
+@media screen and (max-width: 960px) {
+  .hero__trophy {
+    width: 160px;
+  }
+}
 
 .hero__bg-money {
   position: absolute;
@@ -133,7 +137,15 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  z-index: -100;
+  z-index: -500;
+}
+
+.result {
+  height: 100vh;
+  padding-top: 0px;
+}
+.result h3 {
+  text-align: center;
 }
 
 h1 {
@@ -153,7 +165,7 @@ h1 {
 h2 {
   color: #232422;
   font-family: "Sora", sans-serif;
-  font-size: 52px;
+  font-size: 48px;
   line-height: 100%;
 }
 @media screen and (max-width: 960px) {
@@ -241,7 +253,7 @@ p {
 
 .bold {
   font-weight: bold;
-  color: #3A3B39;
+  color: #3a3b39;
 }
 
 strong {
@@ -269,7 +281,7 @@ strong {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   line-height: 140%;
-  color: #FCFFFC;
+  color: #fcfffc;
   padding: 16px 64px;
   transition: 0.3s ease;
   box-shadow: 0px 51px 80px rgba(60, 196, 29, 0.1), 0px 15.375px 24.1177px rgba(60, 196, 29, 0.07), 0px 6.38599px 10.0172px rgba(60, 196, 29, 0.05), 0px 2.30969px 3.62304px rgba(60, 196, 29, 0.03);
@@ -294,7 +306,7 @@ a:hover {
 
 .link {
   display: inline-block;
-  color: #3CC41D;
+  color: #3cc41d;
   background-image: url("../svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -315,7 +327,7 @@ a:hover {
   height: 2px;
   z-index: -1;
   transition: 0.5s ease;
-  background-color: #175F3D;
+  background-color: #175f3d;
 }
 .link:hover {
   opacity: 0.8;
@@ -640,7 +652,7 @@ body {
   height: 100vh;
   position: relative;
   scroll-behavior: smooth;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 svg {
@@ -665,7 +677,7 @@ header {
 }
 
 .active-header {
-  background-color: #F6FFF6;
+  background-color: #f6fff6;
   box-shadow: 0px 51px 80px rgba(169, 80, 196, 0.08), 0px 15.375px 24.1177px rgba(169, 80, 196, 0.0521271), 0px 6.38599px 10.0172px rgba(169, 80, 196, 0.04), 0px 2.30969px 3.62304px rgba(169, 80, 196, 0.0278729);
   position: fixed;
 }
@@ -736,7 +748,7 @@ header {
   max-width: 420px;
   padding: 24px 36px;
   border-radius: 50px;
-  background-color: #F6FFF6;
+  background-color: #f6fff6;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -747,8 +759,8 @@ header {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background-color: #3CC41D;
-  background-color: #68D250;
+  background-color: #3cc41d;
+  background-color: #68d250;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -882,7 +894,7 @@ svg {
     transform: translateY(-10vh);
   }
   to {
-    transform: translateY(100vh);
+    transform: translateY(120vh);
   }
 }
 
@@ -891,6 +903,6 @@ svg {
     transform: translateY(-10vh);
   }
   to {
-    transform: translateY(100vh);
+    transform: translateY(120vh);
   }
 }/*# sourceMappingURL=style.css.map */

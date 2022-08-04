@@ -133,10 +133,9 @@ $container-s: 540px;
 
 .hero {
   padding-top: 160px;
-  height: 90vh;
+  padding-bottom: 40px;
+  // height: 90vh;
   overflow: visible;
-
-  z-index: 500;
 
   @include responsive(s) {
     height: auto;
@@ -157,6 +156,10 @@ $container-s: 540px;
 
 .hero__trophy{
   width: 240px;
+
+  @include responsive(s){
+    width: 160px;
+  }
 }
 
 .hero__bg-money{
@@ -169,5 +172,16 @@ $container-s: 540px;
   align-items: flex-start;
   justify-content: space-between;
   
-  z-index: -100;
+  z-index: -500;
+}
+
+.result{
+
+  h3{
+    text-align: center;
+  }
+
+  height: 100vh;
+  padding-top: 0px;
+
 }
