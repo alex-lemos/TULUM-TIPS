@@ -34,7 +34,7 @@ a {
   display: inline-block;
 
   color: $primary-normal;
-  background-image: url("../svg/icon-arrow.svg");
+  background-image: url("../../svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
   font-size: 18px;
@@ -60,7 +60,7 @@ a {
 
     transition: 0.5s ease;
 
-    background-color: $secondary-light;
+    background: linear-gradient(220.94deg, #68D250 14.43%, #2E9A18 85.28%);
   }
 
   &:hover {

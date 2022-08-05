@@ -144,7 +144,7 @@
   height: 100vh;
   padding-top: 0px;
 }
-.result h3 {
+.result h3, .result p {
   text-align: center;
 }
 
@@ -307,7 +307,7 @@ a:hover {
 .link {
   display: inline-block;
   color: #3cc41d;
-  background-image: url("../svg/icon-arrow.svg");
+  background-image: url("../../svg/icon-arrow.svg");
   background-repeat: no-repeat;
   background-position: 0% 50%;
   font-size: 18px;
@@ -327,7 +327,7 @@ a:hover {
   height: 2px;
   z-index: -1;
   transition: 0.5s ease;
-  background-color: #175f3d;
+  background: linear-gradient(220.94deg, #68D250 14.43%, #2E9A18 85.28%);
 }
 .link:hover {
   opacity: 0.8;
@@ -795,8 +795,8 @@ svg {
 
 .money-2 {
   z-index: -5;
-  -webkit-animation: money-move 1.5s linear infinite;
-          animation: money-move 1.5s linear infinite;
+  -webkit-animation: money-move 1.7s linear infinite;
+          animation: money-move 1.7s linear infinite;
 }
 
 .money-13 {
