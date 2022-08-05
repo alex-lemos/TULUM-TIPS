@@ -148,6 +148,13 @@
   text-align: center;
 }
 
+.best span {
+  background: linear-gradient(220.94deg, #68D250 14.43%, #2E9A18 85.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 h1 {
   color: #232422;
   font-family: "Sora", sans-serif;

@@ -40,7 +40,12 @@ $yellow-normal: #ffce52;
 $yellow-dark: #d9b043;
 $yellow-light: #ffd76b;
 
+// shadow
 $shadow-black: 0px 80px 80px rgba(16, 16, 16, 0.06),
 	0px 24.1177px 24.1177px rgba(16, 16, 16, 0.0390953),
 	0px 10.0172px 10.0172px rgba(16, 16, 16, 0.03),
 	0px 3.62304px 3.62304px rgba(16, 16, 16, 0.0209047);
+
+// Gradient
+
+$gradient-1: linear-gradient(220.94deg, #68D250 14.43%, #2E9A18 85.28%);

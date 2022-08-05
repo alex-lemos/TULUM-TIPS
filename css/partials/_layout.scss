@@ -185,3 +185,12 @@ $container-s: 540px;
   padding-top: 0px;
 
 }
+
+.best{
+  span{
+    background: $gradient-1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
