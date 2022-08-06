@@ -1,0 +1,12 @@
+<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-msg">
+<rect id="Rectangle 891" width="84" height="84" rx="19.6154" fill="#FEFBFF"/>
+<path id="Vector" d="M58.1998 47.4C58.1998 48.3548 57.8205 49.2705 57.1454 49.9456C56.4703 50.6208 55.5546 51 54.5998 51H32.9998L25.7998 58.2V29.4C25.7998 28.4453 26.1791 27.5296 26.8542 26.8545C27.5294 26.1793 28.445 25.8 29.3998 25.8H54.5998C55.5546 25.8 56.4703 26.1793 57.1454 26.8545C57.8205 27.5296 58.1998 28.4453 58.1998 29.4V47.4Z" stroke="url(#paint0_linear_7807_274)" stroke-width="3.64286" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_7807_274" x1="53.1778" y1="30.174" x2="31.9558" y2="54.636" gradientUnits="userSpaceOnUse">
+<stop stop-color="#68D250"/>
+<stop offset="1" stop-color="#2E9A18"/>
+</linearGradient>
+</defs>
+</svg>

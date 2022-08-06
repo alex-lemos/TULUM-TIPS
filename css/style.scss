@@ -21,6 +21,9 @@ body {
   height: 100vh;
   position: relative;
 
+  overflow-y: visible;
+  overflow-x: hidden;
+
   scroll-behavior: smooth;
 
   background-color: $white-dark;

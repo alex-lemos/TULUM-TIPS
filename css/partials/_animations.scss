@@ -1,7 +1,6 @@
 // ANIMATIONS HERO
 
 .money-2 {
-
 	z-index: -5;
 
 	animation: money-move 1.7s linear infinite;
@@ -96,3 +95,45 @@
 		transform: translateY(120vh);
 	}
 }
+
+.ball-1 {
+	z-index: -10;
+	position: absolute;
+
+	top: -20%;
+	right: 35%;
+
+	animation: ball 4s linear 1s infinite alternate;
+}
+
+.ball-2 {
+	position: absolute;
+	z-index: -10;
+
+	bottom: -30%;
+	right: 10%;
+
+	animation: ball 4s linear 1.5s infinite alternate;
+}
+
+.ball-3 {
+	position: absolute;
+	z-index: -10;
+
+	bottom: -7%;
+	left: 50%;
+
+	animation: ball 4s linear 0.5s infinite alternate;
+}
+
+
+@keyframes ball {
+	from {
+		transform: translate(0, -40px);
+	}
+	to {
+		transform: translate(-40px, 40px);
+	}
+}
+
+

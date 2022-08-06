@@ -1,3 +1,26 @@
 svg{
     margin: 0 auto;
 }
+
+.icon-earn{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+
+    top: 52%;
+    right: -20%;
+
+    filter:drop-shadow(0px 51px 80px rgba(60, 196, 29, 0.3));
+}
+
+.icon-safe{
+	width: 140px;
+    height: 140px;
+    position: absolute;
+
+    
+    top: 12%;
+    right: 85%;
+
+    filter:drop-shadow(0px 51px 80px rgba(60, 196, 29, 0.3));
+}
