@@ -5,6 +5,11 @@
   padding: 0px 24px;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 .container-swiper {
   max-width: $container-xl;
   margin: 0 auto;
@@ -70,34 +75,31 @@
 .photo-profile {
   width: 56px;
   height: 56px;
-  border-radius: 50%;
-  background-color: $primary-normal;
-  background-color: $primary-light;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .photo-1 {
-  background-image: url("../img/people1.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-2 {
-  background-image: url("../img/people2.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-3 {
-  background-image: url("../img/people3.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-4 {
-  background-image: url("../img/people4.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-5 {
-  background-image: url("../img/people5.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-6 {
-  background-image: url("../img/people6.png");
+  background-image: url("../../svg/icon-user.svg");
 }

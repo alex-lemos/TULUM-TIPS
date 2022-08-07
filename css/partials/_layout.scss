@@ -293,3 +293,23 @@ $container-s: 540px;
   width: 328px;
   
 }
+
+.action{
+  p{
+    text-align: center;
+  }
+
+}
+
+footer{
+  background-color: $primary-normal;
+
+  
+}
+
+.footer{
+  justify-content: space-between;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+}

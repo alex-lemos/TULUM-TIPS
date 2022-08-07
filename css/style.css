@@ -231,6 +231,20 @@
   width: 328px;
 }
 
+.action p {
+  text-align: center;
+}
+
+footer {
+  background-color: #3cc41d;
+}
+
+.footer {
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 h1 {
   color: #232422;
   font-family: "Sora", sans-serif;
@@ -468,6 +482,10 @@ a:hover {
 
 .mt-6 {
   margin-top: 32px;
+}
+
+.mt-7 {
+  margin-top: 56px;
 }
 
 .ml-1 {
@@ -815,6 +833,11 @@ header {
   padding: 0px 24px;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 .container-swiper {
   max-width: 1440px;
   margin: 0 auto;
@@ -871,35 +894,32 @@ header {
 .photo-profile {
   width: 56px;
   height: 56px;
-  border-radius: 50%;
-  background-color: #3cc41d;
-  background-color: #68d250;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .photo-1 {
-  background-image: url("../img/people1.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-2 {
-  background-image: url("../img/people2.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-3 {
-  background-image: url("../img/people3.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-4 {
-  background-image: url("../img/people4.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-5 {
-  background-image: url("../img/people5.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 .photo-6 {
-  background-image: url("../img/people6.png");
+  background-image: url("../../svg/icon-user.svg");
 }
 
 svg {
