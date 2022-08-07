@@ -85,7 +85,6 @@
 	animation: money-move 6s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 6s linear infinite;
-
 	}
 }
 .money-12 {
@@ -94,7 +93,6 @@
 	animation: money-move 6.5s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 6.5s linear infinite;
-
 	}
 }
 .money-8 {
@@ -103,7 +101,6 @@
 	animation: money-move 7s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 7s linear infinite;
-
 	}
 }
 .money-1 {
@@ -120,7 +117,6 @@
 	animation: money-move 8s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 8s linear infinite;
-
 	}
 }
 .money-3 {
@@ -129,7 +125,6 @@
 	animation: money-move 8.5s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 8.5s linear infinite;
-
 	}
 }
 .money-15 {
@@ -138,7 +133,6 @@
 	animation: money-move 9s linear infinite;
 	@include responsive(s) {
 		animation: money-move__mobile 9s linear infinite;
-
 	}
 }
 
@@ -196,5 +190,26 @@
 	}
 	to {
 		transform: translate(-40px, 40px);
+	}
+}
+
+.icon-earn {
+	@include responsive(s) {
+		animation: cellMove 4s linear 0.5s infinite alternate;
+	}
+}
+
+.icon-safe {
+	@include responsive(s) {
+		animation: cellMove 4s linear 2.5s infinite alternate;
+	}
+}
+
+@keyframes cellMove {
+	from {
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translate(-10px, 20px);
 	}
 }

@@ -27,6 +27,12 @@ header {
 
   @include responsive(s){
     justify-content: center;
+
+    padding: 0px 16px;
+
+    svg{
+      width: 160px;
+    }
   }
 
 }
