@@ -105,6 +105,15 @@
   }
 }
 
+.mobile-ok {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .mobile-ok {
+    display: block;
+  }
+}
+
 .hero {
   padding-top: 160px;
   padding-bottom: 40px;
@@ -125,15 +134,6 @@
   filter: drop-shadow(0px 51px 80px rgba(60, 196, 29, 0.1));
 }
 
-.hero__trophy {
-  width: 240px;
-}
-@media screen and (max-width: 960px) {
-  .hero__trophy {
-    width: 160px;
-  }
-}
-
 .hero__bg-money {
   position: absolute;
   width: 100%;
@@ -150,10 +150,6 @@
 }
 .result h3, .result p {
   text-align: center;
-}
-.result > img {
-  width: 936px;
-  height: 607px;
 }
 
 .best {
@@ -178,18 +174,39 @@
   position: absolute;
   top: 0;
 }
+@media screen and (max-width: 960px) {
+  .best__bg-card {
+    width: 360px;
+    height: 1040px;
+  }
+}
 
 .best__card {
   width: 100%;
-  gap: 15%;
+  justify-content: space-around;
   z-index: 10;
 }
 .best__card p {
   font-weight: bold;
 }
+@media screen and (max-width: 960px) {
+  .best__card {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .best__card h5, .best__card h3 {
+    text-align: center;
+  }
+}
 
 .best__reason {
   gap: 72px;
+}
+@media screen and (max-width: 960px) {
+  .best__reason {
+    flex-direction: column;
+    gap: 48px;
+  }
 }
 .best__reason svg {
   filter: drop-shadow(0px 51px 80px rgba(60, 196, 29, 0.3));
@@ -966,11 +983,23 @@ svg {
   -webkit-animation: money-move 1.7s linear infinite;
           animation: money-move 1.7s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-2 {
+    -webkit-animation: money-move__mobile 1.7s linear infinite;
+            animation: money-move__mobile 1.7s linear infinite;
+  }
+}
 
 .money-13 {
   z-index: -5;
   -webkit-animation: money-move 2s linear infinite;
           animation: money-move 2s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-13 {
+    -webkit-animation: money-move__mobile 2s linear infinite;
+            animation: money-move__mobile 2s linear infinite;
+  }
 }
 
 .money-8 {
@@ -978,11 +1007,23 @@ svg {
   -webkit-animation: money-move 2.5s linear infinite;
           animation: money-move 2.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-8 {
+    -webkit-animation: money-move__mobile 2.5s linear infinite;
+            animation: money-move__mobile 2.5s linear infinite;
+  }
+}
 
 .money-7 {
   z-index: -5;
   -webkit-animation: money-move 3s linear infinite;
           animation: money-move 3s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-7 {
+    -webkit-animation: money-move__mobile 3s linear infinite;
+            animation: money-move__mobile 3s linear infinite;
+  }
 }
 
 .money-5 {
@@ -990,11 +1031,23 @@ svg {
   -webkit-animation: money-move 3.5s linear infinite;
           animation: money-move 3.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-5 {
+    -webkit-animation: money-move__mobile 3.5s linear infinite;
+            animation: money-move__mobile 3.5s linear infinite;
+  }
+}
 
 .money-14 {
   z-index: -5;
   -webkit-animation: money-move 4s linear infinite;
           animation: money-move 4s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-14 {
+    -webkit-animation: money-move__mobile 4s linear infinite;
+            animation: money-move__mobile 4s linear infinite;
+  }
 }
 
 .money-4 {
@@ -1002,11 +1055,23 @@ svg {
   -webkit-animation: money-move 4.5s linear infinite;
           animation: money-move 4.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-4 {
+    -webkit-animation: money-move__mobile 4.5s linear infinite;
+            animation: money-move__mobile 4.5s linear infinite;
+  }
+}
 
 .money-10 {
   z-index: -5;
   -webkit-animation: money-move 5s linear infinite;
           animation: money-move 5s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-10 {
+    -webkit-animation: money-move__mobile 5s linear infinite;
+            animation: money-move__mobile 5s linear infinite;
+  }
 }
 
 .money-11 {
@@ -1014,11 +1079,23 @@ svg {
   -webkit-animation: money-move 5.5s linear infinite;
           animation: money-move 5.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-11 {
+    -webkit-animation: money-move__mobile 5.5s linear infinite;
+            animation: money-move__mobile 5.5s linear infinite;
+  }
+}
 
 .money-6 {
   z-index: -5;
   -webkit-animation: money-move 6s linear infinite;
           animation: money-move 6s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-6 {
+    -webkit-animation: money-move__mobile 6s linear infinite;
+            animation: money-move__mobile 6s linear infinite;
+  }
 }
 
 .money-12 {
@@ -1026,11 +1103,23 @@ svg {
   -webkit-animation: money-move 6.5s linear infinite;
           animation: money-move 6.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-12 {
+    -webkit-animation: money-move__mobile 6.5s linear infinite;
+            animation: money-move__mobile 6.5s linear infinite;
+  }
+}
 
 .money-8 {
   z-index: -5;
   -webkit-animation: money-move 7s linear infinite;
           animation: money-move 7s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-8 {
+    -webkit-animation: money-move__mobile 7s linear infinite;
+            animation: money-move__mobile 7s linear infinite;
+  }
 }
 
 .money-1 {
@@ -1038,11 +1127,23 @@ svg {
   -webkit-animation: money-move 7.5s linear infinite;
           animation: money-move 7.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-1 {
+    -webkit-animation: money-move__mobile 7.5s linear infinite;
+            animation: money-move__mobile 7.5s linear infinite;
+  }
+}
 
 .money-9 {
   z-index: -5;
   -webkit-animation: money-move 8s linear infinite;
           animation: money-move 8s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-9 {
+    -webkit-animation: money-move__mobile 8s linear infinite;
+            animation: money-move__mobile 8s linear infinite;
+  }
 }
 
 .money-3 {
@@ -1050,11 +1151,23 @@ svg {
   -webkit-animation: money-move 8.5s linear infinite;
           animation: money-move 8.5s linear infinite;
 }
+@media screen and (max-width: 960px) {
+  .money-3 {
+    -webkit-animation: money-move__mobile 8.5s linear infinite;
+            animation: money-move__mobile 8.5s linear infinite;
+  }
+}
 
 .money-15 {
   z-index: -5;
   -webkit-animation: money-move 9s linear infinite;
           animation: money-move 9s linear infinite;
+}
+@media screen and (max-width: 960px) {
+  .money-15 {
+    -webkit-animation: money-move__mobile 9s linear infinite;
+            animation: money-move__mobile 9s linear infinite;
+  }
 }
 
 @-webkit-keyframes money-move {
@@ -1072,6 +1185,22 @@ svg {
   }
   to {
     transform: translateY(120vh);
+  }
+}
+@-webkit-keyframes money-move__mobile {
+  from {
+    transform: translateY(-10vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes money-move__mobile {
+  from {
+    transform: translateY(-10vh);
+  }
+  to {
+    transform: translateY(100vh);
   }
 }
 .ball-1 {

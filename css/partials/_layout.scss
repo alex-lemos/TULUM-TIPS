@@ -135,6 +135,13 @@ $container-s: 540px;
   }
 }
 
+.mobile-ok{
+  display: none;
+  @include responsive(s){
+    display: block;
+  }
+}
+
 .hero {
   padding-top: 160px;
   padding-bottom: 40px;
@@ -159,14 +166,6 @@ $container-s: 540px;
   }
 }
 
-.hero__trophy{
-  width: 240px;
-
-  @include responsive(s){
-    width: 160px;
-  }
-}
-
 .hero__bg-money{
   position: absolute;
   width: 100%;
@@ -178,6 +177,7 @@ $container-s: 540px;
   justify-content: space-between;
   
   z-index: -500;
+
 }
 
 .result{
@@ -187,11 +187,6 @@ $container-s: 540px;
   }
 
   padding-top: 0px;
-
-  > img{
-    width: 936px;
-    height: 607px;
-  }
 
 }
 
@@ -223,13 +218,18 @@ $container-s: 540px;
 
     top: 0;
   }
+
+  @include responsive(s){
+    width: 360px;
+    height: 1040px;
+  }
 }
 
 .best__card{
 
   width: 100%;
- 
-  gap: 15%;
+
+  justify-content: space-around;
 
   z-index: 10;
 
@@ -237,10 +237,26 @@ $container-s: 540px;
     font-weight: bold;
   }
 
+  @include responsive(s){
+    flex-direction: column;
+
+    gap: 80px;
+
+    h5, h3{
+      text-align: center;
+    }
+  }
+
 }
 
 .best__reason{
   gap: 72px;
+
+  @include responsive(s){
+    flex-direction: column;
+
+    gap: 48px;
+  }
 
   svg{
     filter:drop-shadow(0px 51px 80px rgba(60, 196, 29, 0.3));
