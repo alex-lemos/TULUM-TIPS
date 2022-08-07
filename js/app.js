@@ -7,6 +7,8 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+
+/*======= SWIPPER =======*/ 
 const swiper = new Swiper('.swiper-container', {
     slidesPerView: 'auto',
     spaceBetween: 40,
@@ -21,3 +23,10 @@ const swiper = new Swiper('.swiper-container', {
         prevEl: '.button-prev',
     },
   });
+
+/*======= YEAR =======*/ 
+
+const year = new Date().getFullYear();
+
+let spaceYear = document.querySelector(".year");
+spaceYear.innerHTML = year

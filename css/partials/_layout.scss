@@ -313,3 +313,24 @@ footer{
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.contribution-container{
+  background-color: $black-light;
+}
+
+.contribution{
+
+  justify-content: space-between;
+
+  a,p{
+    color: $white-dark;
+  }
+
+  p{
+    font-weight: 300;
+  }
+
+  a{
+    font-weight: 400;
+  }
+}

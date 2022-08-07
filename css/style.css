@@ -245,6 +245,23 @@ footer {
   padding-bottom: 24px;
 }
 
+.contribution-container {
+  background-color: #3a3b39;
+}
+
+.contribution {
+  justify-content: space-between;
+}
+.contribution a, .contribution p {
+  color: #f1f1f1;
+}
+.contribution p {
+  font-weight: 300;
+}
+.contribution a {
+  font-weight: 400;
+}
+
 h1 {
   color: #232422;
   font-family: "Sora", sans-serif;
